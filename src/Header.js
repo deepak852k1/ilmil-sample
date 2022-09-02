@@ -2,48 +2,58 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
+
+
+
 function Header() {
- return (
+  
+
+
+
+  return (
     <div className="header">
-      
+     
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="https://ilmil.com/wp-content/uploads/2019/09/logo.png"
         />
-     <div className="header__search">
-        <input className="header__searchInput" type="text" />
-        <SearchIcon className="header__searchIcon" />
+      
+
+      <div className="header__search">
+        
       </div>
 
       <div className="header__nav">
         
           <div  className="header__option">
-            <span className="header__optionLineOne">Hello </span>
-            <span className="header__optionLineTwo"></span>
+            <span className="header__optionLineOne">Courses </span>
+           
           </div>
         
 
-        
+       
           <div className="header__option">
-            <span className="header__optionLineOne">Returns</span>
-            <span className="header__optionLineTwo">& Orders</span>
+            <span className="header__optionLineOne">About us</span>
+            
           </div>
-        
+       
         
 
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
+          <span className="header__optionLineOne">Contact us</span>
+          
         </div>
 
-       
+        
           <div className="header__optionBasket">
-            <ShoppingBasketIcon />
+            <AccountCircleIcon />
             <span className="header__optionLineTwo header__basketCount">
               
             </span>
           </div>
-       
+        
       </div>
     </div>
   );

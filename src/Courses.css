@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* ==== BASE STYLES ====*/
-/* ==================== GLOBAL STYLES ======================= */
+
 
 html {
   font-family: "Inter", sans-serif;
@@ -1499,4 +1498,6 @@ a[class*=card]:hover .title {
   }
 }
 
-/*# sourceMappingURL=responsive.css.map */
+.{
+  background-color: #405D9D;
+}

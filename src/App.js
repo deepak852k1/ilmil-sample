@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 import Courses from "./Courses";
+import Cart from './Cart';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
      <Switch>
       <Route path="/Courses">
-      <Header />
+            <Header />
             <Courses />
             
           </Route>
@@ -18,10 +19,16 @@ function App() {
             <Header />
             <Home />
           </Route>
+          <Route path="/Cart">
+            <Header />
+            <Cart/>
+          </Route>
       </Switch>
     </div>
     </Router>
   );
+  
 }
+
 
 export default App;

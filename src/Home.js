@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Product from './Product'
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -11,6 +12,8 @@ function Home() {
           src="https://thumbs.dreamstime.com/z/asian-business-team-work-together-project-brainstorm-meeting-using-laptop-computer-colleague-coworker-startup-office-young-178061459.jpg"
           alt=""
         />
+        <Link to='/Courses'>
+
         <div className="home__row">
         <Product
             id="12321341"
@@ -35,9 +38,11 @@ function Home() {
             image="https://ilmil.com/wp-content/uploads/2017/06/COBIT5-ASSESSOR_v1.0-copy.001-585x390.jpeg"
           />
             
-           
+            
 
         </div>
+        </Link>
+        <Link to='/Courses'>
         <div className="home__row">
         <Product
             id="12321341"
@@ -57,6 +62,9 @@ function Home() {
             
 
         </div>
+        </Link>
+        <Link to='/Courses'>
+        
         <div className="home__row">
         <Product
             id="12321341"
@@ -65,12 +73,8 @@ function Home() {
             rating={"3535 Students enrolled"}
             image="https://ilmil.com/wp-content/uploads/2022/06/ITIL%C2%AE-4-Strategic-Leader-Digital-And-IT-Strategy-DITS.png"
           />
-        
-          
-        
-            
         </div>
-
+        </Link>
 
         </div>
     </div>

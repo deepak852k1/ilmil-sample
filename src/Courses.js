@@ -4,6 +4,7 @@ import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LanguageIcon from '@mui/icons-material/Language';
+import { Link } from "react-router-dom";
 function Courses() {
   return (
     <div className="App">

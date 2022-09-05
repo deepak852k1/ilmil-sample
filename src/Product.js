@@ -1,6 +1,7 @@
 import React from 'react'
 import './Product.css'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { Link } from "react-router-dom";
 
 function Product({ id, title, image, price, rating }) {
   return (
@@ -12,15 +13,15 @@ function Product({ id, title, image, price, rating }) {
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
-         
-              <p>{rating}</p>
+          <p>{rating}</p>
            
-            </div>
-        </div>
+           </div>
+       </div>
+             
     
         <img src={image} alt="" />
         <button className="button">
-     <span>Add to cart</span>
+      <Link to='/Cart'><span>Add to cart</span></Link>
     <div className="cart">
      <svg viewBox="0 0 36 26">
      <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>

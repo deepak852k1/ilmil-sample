@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Product from './Product'
+import Product from '../Product/Product'
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
         <img
           className="home__image"
           src="https://thumbs.dreamstime.com/z/asian-business-team-work-together-project-brainstorm-meeting-using-laptop-computer-colleague-coworker-startup-office-young-178061459.jpg"
-          alt=""
+          alt=" "
         />
         <Link to='/Courses'>
 

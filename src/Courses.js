@@ -5,7 +5,7 @@ import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import LanguageIcon from '@mui/icons-material/Language';
 import { Link } from "react-router-dom";
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 function Courses() {
   return (
     <div className="App">

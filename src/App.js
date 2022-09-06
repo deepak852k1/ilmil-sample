@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./Header/Header";
+import Home from "./Home/Home";
 import Courses from "./Courses";
-import Cart from './Cart';
-import Footer from './Footer'
+
+
+import Footer from './Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
     <div className="App">
      <Switch>
       <Route path="/Courses">
-            <Header />
-            <Courses />
+          <Header/>
+            <Courses/>
             <Footer/>
            
       </Route>
@@ -22,16 +23,11 @@ function App() {
             <Footer />
           </Route>
      <Route path="/">
-            <Header />
-            <Home />
+            <Header/>
+            <Home/>
             <Footer/>
       </Route>
-
-      <Route path="/Cart">
-            <Header />
-            <Cart/>
-      </Route>
-      </Switch>
+    </Switch>
     </div>
     </Router>
   );

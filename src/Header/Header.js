@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.css";
-import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from "react-router-dom";
 function Header() {
@@ -32,7 +30,7 @@ function Header() {
         </div>
 
         
-          <div className="header__optionBasket">
+          <div className="header__optionaccount">
             <AccountCircleIcon />
             <span className="header__optionLineTwo header__basketCount">
               

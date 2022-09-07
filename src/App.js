@@ -3,9 +3,9 @@ import "./App.css";
 import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Courses from "./Courses";
+import Footer from './Footer/Footer';
 
 
-import Footer from './Footer/Footer'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -22,6 +22,15 @@ function App() {
             
             <Footer />
           </Route>
+          <Route path="/Checkout">
+            
+           
+           
+            
+          </Route>
+          
+            
+         
      <Route path="/">
             <Header/>
             <Home/>

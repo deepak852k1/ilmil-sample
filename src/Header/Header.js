@@ -28,8 +28,6 @@ function Header() {
           <span className="header__optionLineOne">Contact us</span>
           
         </div>
-
-        
           <div className="header__optionaccount">
             <AccountCircleIcon />
             <span className="header__optionLineTwo header__basketCount">

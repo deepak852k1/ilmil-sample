@@ -2,6 +2,7 @@ import React from 'react'
 import './Product.css'
 import { Link } from "react-router-dom";
 
+
 function Product({ title, image, price, rating }) {
   return (
     <div className='product'>
@@ -20,7 +21,7 @@ function Product({ title, image, price, rating }) {
     
         <img src={image} alt="" />
         <button className="button">
-      <Link to='/Cart'><span>Add to cart</span></Link>
+      <Link to='cart'><span>Add to cart</span></Link>
     <div className="cart">
      <svg viewBox="0 0 36 26">
      <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
